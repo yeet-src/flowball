@@ -1,5 +1,5 @@
 import { clamp } from "yeet:helpers";
-import { displayWidth, clusterOffsets, clusterWidths, clip } from "yeet:text";
+import { displayWidth, clusterOffsets, clusterWidths, clip } from "yeet:tui:text";
 
 /* flowball — a live newspaper page. The article is typeset into responsive
  * columns that re-fit as the terminal resizes (one column when narrow, up
